@@ -8,3 +8,4 @@ A sleek and interactive **music player** built with **HTML, CSS, and JavaScript*
 ✅ Progress bar with time updates  
 ✅ Volume control  
 
+#Live Link : https://maulik7984335855.github.io/music-player/
