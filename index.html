@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Player</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="musicBox">
+      <img src="pics/chhogada.jpg" alt="pic" class="album" />
+      <div class="song_details">
+        <h2 class="song_name">Chogada</h2>
+        <h5 class="artist_name">Ayush Sharma, Warina, Darshan Raval</h5>
+      </div>
+      <audio id="audio" src="songs/01 - Chogada (320 Kbps) - DownloadMing.SE.mp3"></audio>
+      <div class="music_range">
+        <input type="range"  class="progress" />
+        <div class="time">
+          <span class="current_time">0:00</span>
+          <span class="duration">4.37</span>
+        </div>
+      </div>
+      <div class="buttons">
+        <span class=""><i class="fa fa-step-backward fa-2x backward"></i></span>
+        <span class=""><i class="fa fa-pause-circle fa-3x play_pause"></i></span>
+        <span class=""><i class="fa fa-step-forward fa-2x forward"></i></span>
+      </div>
+         <div class="volume-container">
+            <i class="fa-solid fa-volume-down"></i>
+            <input type="range" id="volume" min="0" max="1" step="0.1" value="1">
+            <i class="fa-solid fa-volume-up"></i>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
