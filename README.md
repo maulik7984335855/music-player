@@ -9,3 +9,7 @@ A sleek and interactive **music player** built with **HTML, CSS, and JavaScript*
 ✅ Volume control  
 
 #Live Link : https://maulik7984335855.github.io/music-player/
+
+## Screenshot
+![Screenshot](pics/screenshot.png)
+
